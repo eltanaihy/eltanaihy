@@ -1,44 +1,50 @@
-*{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 900;
-text-align: center;
+{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-body{
-    background-color: rebeccapurple;
-}
- 
-nav{
-    background-color: aqua;
-    padding: 1%;
-}
-h1{
-  background-color: lightblue;
-  color: green rgb( 9, 196, )
-}
- 
-p{
-    background-color: blue;
-    margin-left: 30%;
-    margin-right: 30%;
-    padding: 2%;
- 
-}
-.eltanaihy-esraa-verifica-6nov2024 {
-    background-color: peru;
-    color:beige
-}
- 
-.allineamento-dx-leggero{
-    text-align: left;
-    font-weight: 100;
- 
-}
- 
-.container{
+
+nav {
+    background:#255;
+    color: white;
+    padding: 15px;
     display: flex;
-    background-color: silver;
+    justify-content: space-between;
+    align-items: center;
 }
- 
-.container2{
-    background-color: mediumaquamarine;
+
+nav ul {
+    display: flex;
+    list-style: none;
+    }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+ {
+    display: none;
+    font-size: 20px;
+}
+
+.hero {
+    background: #4CAF50;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #eee;
+    padding: 30px;
+    width: 200px;
 }
